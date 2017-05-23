@@ -99,7 +99,7 @@ Author's custom styles
   font-family: "OpenSansSemiBold",sans-serif;
 }
 
-/* ===================HEADER================== */
+/* ==================FOOTER==================== */
 
 
 #logolebon>.brand {
@@ -181,18 +181,108 @@ Author's custom styles
   text-decoration: underline;
 }
 
-/* ===================HEADER================== */
+}
 
 
+/* ==================MAIN==================== */
+
+#one{
+
+  margin: 5%;
+  background: #4183D7;
+  color:#fff;
+  border: none;
+}
+#two{
+
+  margin: 5%;
+  color: #4183d7;
+  background: transparent;
+  border: 1px solid #4183d7;
+}
+h4{
+
+  margin: 3%;
+  font-size: 1.4rem;
+  font-weight: bold;
+  height: 150px;
+}
+h4 span {
+  color: #F56B30;
+}
+
+.land
+{
+  fill: #3D6ABE;
+  fill-opacity: 1;
+  stroke:#1F377F;
+  stroke-opacity: 1;
+  stroke-width:0.5;
+}
+#carte svg{
+  width: 100%;
+  height: 600px;
+}
+svg{
+  width: 100%;
+}
+svg g path:hover {
+  fill: #f56b2a;
+}
+
+#footbutton{
+  margin-bottom: 3rem;
+  text-align: left;
+}
+
+#listdepartement{
+  list-style: none;
+  color: #3873bd;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 0;
+}
+#listdepartement a:hover{
+  color: #f56b2a;
+  text-decoration: none;
 
 
+}
 
 
+/* ==================FOOTER==================== */
+.textFooter{
 
+  margin-top: 20%;
+  font-size: 1.3rem;
+  text-align: center;
+}
+footer a:hover, a:focus {
+  color: #3873bd;
+  text-decoration: underline;
+  outline: none;
+}
+#footer{
+  background: #F2F2F2;
+}
+#footer ul{
+  list-style: none;
+  font-size: 1.1rem;
+}
+.footerCategories {
 
-
-
-
+  padding: 20px 0;
+  padding: 2rem 0;
+  background: #f2f2f2;
+}
+.title {
+  width: 100%;
+  margin: 20px 0px 10px 0px;
+  font-family: "OpenSansSemiBold",sans-serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
 
 
 /* ==========================================================================
